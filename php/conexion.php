@@ -2,7 +2,7 @@
 $host = 'localhost';
 $usuario = 'root';
 $contrasena = '';
-$base_datos = 'turnos';
+$base_datos = 'turn';
 
 $conexion = new mysqli($host, $usuario, $contrasena, $base_datos);
 
