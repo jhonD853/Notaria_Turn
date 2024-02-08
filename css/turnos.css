@@ -1,0 +1,38 @@
+body, html {
+    background: linear-gradient(to bottom, #ffffff, #da0d0dc6); /* Degradado de gis a blargb(0, 0, 0)*/
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+.lista-turnos {
+    background: linear-gradient(to bottom, #fff, #828282); /* Degradado de gis a blanco */
+    font-size: 450%;
+    border: 2px solid #333;
+    padding: 30px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    height: 80vh;
+    overflow-y: auto;
+}
+
+.turno-actual {
+    background: linear-gradient(to bottom, #fff, #828282); /* Degradado de gis a blanco */
+    font-size: 300px;
+    padding: 20px;
+    border: 2px solid #333;
+    background-color: #fff;
+    margin-bottom: 20px;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    position: absolute; /* Establecer posición absoluta para la imagen */
+    top: 2%; /* Posicionar en la parte superior */
+    right: 1%; /* Posicionar en el lado derecho */
+    max-height: 75%; /* Altura máxima del 100% del contenedor */
+}
